@@ -1,0 +1,49 @@
+img{
+    width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+body,footer{
+    color: white;
+    background-color: hotpink;
+}
+nav{
+    color: white;
+    font-size:2em;
+    text-align: center;
+}
+a{   
+     text-align: center;
+}
+a:hover{
+    color: black;
+}
+.text{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#first-part{
+    text-align: center;
+    color:white;
+    font-size: .8em ;
+}
+#second-part{
+}
+#last-part{
+    font-size: 3em;
+    text-align: center;
+}
+main{
+    margin-right: 10%;
+    color: black;
+    font-size: 1.75em;
+}
+div{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+footer{
+    text-align: center;
+    color: black;
+}

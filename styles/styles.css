@@ -1,0 +1,27 @@
+
+header{
+    text-align: center;
+}
+nav a
+{
+    text-align: center;
+}
+ h1 #hero-msg 
+ {
+    text-align: center;
+ }
+h4 #hero-msg {
+    text-align: center;
+ }
+ .button-box
+ {
+    text-align: center;
+ }
+ main section
+{
+text-align: center;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}

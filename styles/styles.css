@@ -30,7 +30,7 @@ header{
 
 nav a{
     text-align: left;
-    font-style:Arial, Tahoma, 'Arial Black' ;
+    font-style:Arial, Tahoma;
     color: white; 
     font-size: 1.25em;
     text-decoration: none; 
@@ -55,7 +55,6 @@ nav a:hover{
     font-family: Arial, Tahoma, 'Arial Black' ;
     text-align: center;
     color: white;
-    padding: 1rem rgb(102, 110, 117);
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 100px 0;
@@ -113,7 +112,7 @@ footer{
     padding: 25px 50px;
     margin-top: 200px;
     text-align: left;
-    font-style: Arial, Tahoma, 'Arial Black' ;
+    font-style: Arial, Tahoma;
     border-top: 5px rgb(102, 110, 117) solid ;
 }
 footer a{

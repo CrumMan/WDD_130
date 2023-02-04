@@ -30,6 +30,7 @@ header{
 
 nav a{
     text-align: left;
+    font-style:Arial, Tahoma, 'Arial Black' ;
     color: white; 
     font-size: 1.25em;
     text-decoration: none; 
@@ -62,7 +63,7 @@ nav a:hover{
 }
 .card-img{
     border: 10px  rgb(102, 110, 117);
-    border-style: solid;
+    border-style: inset;
 }
 main section img {
     box-sizing: border-box;
@@ -86,7 +87,7 @@ main section{
     margin-top: 50px;
     border-radius: 5px;
     border-color: black;
-    border-style: solid;
+    border-style: outset;
 }
 .book{
     text-decoration: underline;
@@ -115,6 +116,7 @@ footer{
     padding: 25px 50px;
     margin-top: 200px;
     text-align: left;
+    font-style: Arial, Tahoma, 'Arial Black' ;
 }
 footer a{
     color: white;

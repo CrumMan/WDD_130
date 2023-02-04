@@ -30,7 +30,7 @@ header{
 
 nav a{
     text-align: left;
-    font-style:Arial, Tahoma;
+    font-style:verdana, Tahoma;
     color: white; 
     font-size: 1.25em;
     text-decoration: none; 
@@ -112,7 +112,7 @@ footer{
     padding: 25px 50px;
     margin-top: 200px;
     text-align: left;
-    font-style: Arial, Tahoma;
+    font-style: Verdana, Tahoma;
     border-top: 5px rgb(102, 110, 117) solid ;
 }
 footer a{
@@ -120,7 +120,7 @@ footer a{
     text-decoration: none;
 }
 footer .social img{
-    padding-top: 15px rgb(102, 110, 117);
+    padding-top: 15px;
 }
     footer a:hover{
 color: black;

@@ -54,13 +54,15 @@ nav a:hover{
     font-family: Arial, Tahoma, 'Arial Black' ;
     text-align: center;
     color: white;
+    padding: 1rem rgb(102, 110, 117);
 }
 .rivers-card, .camping-card, .rapids-card{
-    margin: 200px 0;
+    margin: 100px 0;
+
 }
 .card-img{
-    border: 10px;
-    border-color: black;
+    border: 10px  rgb(102, 110, 117);
+    border-style: solid;
 }
 main section img {
     box-sizing: border-box;
@@ -83,6 +85,8 @@ main section{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
 }
 .book{
     text-decoration: underline;
@@ -94,7 +98,7 @@ main section{
 }
 .msg{
     background-color: #3bd6c6;
-    padding: 35px;
+    padding: 35px;    
 }
 .msg h2{
     
@@ -111,14 +115,13 @@ footer{
     padding: 25px 50px;
     margin-top: 200px;
     text-align: left;
-
 }
 footer a{
     color: white;
     text-decoration: none;
 }
 footer .social img{
-    padding-top: 15px;
+    padding-top: 15px rgb(102, 110, 117);
 }
     footer a:hover{
 color: black;

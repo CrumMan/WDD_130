@@ -28,7 +28,6 @@ header{
 .logo {
     width: 80px;
     padding-bottom: 15px;
-    columns: 1/2;
 }
 #logo_link{
     padding-top: 5px;
@@ -115,33 +114,24 @@ nav a:hover{
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
-    width: 2fr;
-    height: 1fr;
 }
 .camping-card{
     grid-column: 5/7;
     grid-row: 2/3;
-    height: 1fr;
-    width: 2fr;
 }
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
-    width: 2fr;
-    height:1fr;
 }
 #background{
     grid-column: 1/11;
     grid-row: 4/9;
     background-color: #1e78ca;
-    min-width: 11fr;
-    min-height: 5fr;
 }
 .mountains{
     grid-column: 2/7;
     grid-row: 5/8;
     min-width:5fr;
-    min-height: 3fr;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg{
@@ -149,8 +139,6 @@ nav a:hover{
     padding: 35px;  
     grid-column: 6/10;
     grid-row: 6/7;  
-    min-width:4fr;
-    min-height:3fr;
     box-shadow: 5px 5px 10px #6f7364;
 }
 

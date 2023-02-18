@@ -26,6 +26,8 @@ h2{
 header{
     background-color: #3bd6c6;
     color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a{

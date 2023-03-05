@@ -41,7 +41,7 @@ nav{
     grid-column: 2/3;
     padding: 25px;
     }
-nav a{
+nav a{  
     text-align: left;
     font-family:'Arial Black', Arial, Tahoma;
     color: white; 

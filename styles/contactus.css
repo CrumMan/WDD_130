@@ -1,0 +1,56 @@
+body{
+    font-family:'Arial Black', Arial, Tahoma ;
+    background-color: #3bd6c6;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 100px 800px 100px;
+}
+header{
+    background-color: #3bd6c6;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.logo{
+    width: 100px;
+    grid-column: 1/2;
+}
+nav{
+    grid-column: 2/5;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    color: white;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+nav a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+#feedback {
+    background-color: antiquewhite;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding: .5em;
+    color: #1e78ca;
+    justify-self: center;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    /* make this element invisible until we are ready for it */
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+footer{
+    grid-row: 3;
+    background-color: #1e78ca;
+    padding-bottom: 200px;
+    grid-column: 1/4;
+}
